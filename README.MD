@@ -1,5 +1,15 @@
 # 🧠 Pulso de Memoria
 
+> **Live demo:** https://pulso-de-memoria.onrender.com/ (free hosting, so the first load can take ~1 minute)
+>
+> **English summary.** Interactive Plotly Dash dashboard of memory-routing patterns in real AI conversations.
+> A text classifier from the author's MSc thesis labels 56,617 Spanish-language turns from the WildChat-1M
+> corpus as working, semantic or episodic memory, and four linked views (turn timeline, hour × weekday
+> heatmap, classifier confidence, 12-month trend) with global filters show how those needs vary over time.
+> **Stack:** Python, Dash, Plotly, pandas, Parquet, deployed on Render.
+> Data Visualization course, MSc Data Science (USFQ). The interface and the rest of this README are in Spanish.
+
+
 > Dashboard interactivo de patrones temporales de enrutamiento de memoria en agentes conversacionales de IA
 
 [![Python](https://img.shields.io/badge/Python-3.14-blue)](https://python.org)

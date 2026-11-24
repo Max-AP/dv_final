@@ -50,6 +50,7 @@ def layout_base(leyenda=True):
 
 # 3. APP
 app    = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
+app.title = "Pulso de Memoria"
 server = app.server
 
 # 4. LAYOUT
